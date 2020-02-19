@@ -1,0 +1,20 @@
+Which method (single queue, multi-queue) appears to be preferable and why? Note specific values in
+your results when explaining why
+
+- the single queue simulation appears to be preferable in this simulation.
+The average wait time is consistently lower for the single queue implementation.
+The averages for "in system" time and the customers turned away also seem to be slightly less with the single queue implementation.
+When the simulation is run with 4 tellers in the single Queue implementation the number of customers served is 232 and the standard deviation is
+7.44 whereas for 4 teller in the multi queue implementation the number of customers served was 228 and the standard deviation of the wait time
+was 11.943.
+
+How many tellers do you think would be optimal for your bank? Note that this could have more than
+one answer, and a more informed answer may require more information from your simulation.
+However, try to justify your answer as best you can.
+
+-the optimal amount of tellers would be the number of tellers that optimize the number of customers served without having to pay too many tellers.
+When running the simulation with the same input values except for the number of tellers the time ave wait decreases and more customers are served and less are turned away.
+Having too many tellers however results in mostly no wait time which would be cost inefficient for a bank and having too little would result in very long wait times.
+The optimal amount of tellers would be the number of tellers that allows
+for an average wait time of around 10-20 minutes. when running the simulation with different amounts of tellers but the same control variables it seems 4 tellers could be
+optimal depending on the customer arrival rate and average service time. 4 tellers results in an average wait time of around 10 minutes for both queue types with only around 5% of customers leaving the bank.
